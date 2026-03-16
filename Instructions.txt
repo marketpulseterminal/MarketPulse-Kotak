@@ -1,5 +1,28 @@
 MARKET PULSE TERMINAL – COMPLETE USER GUIDE
 
+To start application
+Download File as Zip-Extract them to any folder
+Click on Start.bat 
+Make sure Cmd Runs in Background 
+
+--------------------------------------------------
+IMPORTANT SECURITY INFORMATION
+--------------------------------------------------
+
+Market Pulse Terminal runs completely on the **end-user machine**.
+
+• All credentials are stored locally on the user's computer -c/user/profile/.kat_trader
+• We do NOT store or access user credentials  
+• We do NOT control user trading accounts  
+• The application does NOT collect or transmit personal trading data  
+
+The only verification performed by Market Pulse Terminal is:
+
+License validation during login.
+
+Apart from license validation, the application has **no control over user accounts or trades**.
+
+
 --------------------------------------------------
 IMPORTANT – ENABLE NEO TRADE API & TOTP
 --------------------------------------------------
@@ -184,23 +207,6 @@ TOTP
 
 
 Access token and other credentials are already saved locally.
-
---------------------------------------------------
-IMPORTANT SECURITY INFORMATION
---------------------------------------------------
-
-Market Pulse Terminal runs completely on the **end-user machine**.
-
-• All credentials are stored locally on the user's computer  
-• We do NOT store or access user credentials  
-• We do NOT control user trading accounts  
-• The application does NOT collect or transmit personal trading data  
-
-The only verification performed by Market Pulse Terminal is:
-
-License validation during login.
-
-Apart from license validation, the application has **no control over user accounts or trades**.
 
 --------------------------------------------------
 IMPORTANT NOTES
