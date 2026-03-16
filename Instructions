@@ -1,1 +1,221 @@
+MARKET PULSE TERMINAL – COMPLETE USER GUIDE
 
+--------------------------------------------------
+IMPORTANT – ENABLE NEO TRADE API & TOTP
+--------------------------------------------------
+
+Before using Market Pulse Terminal, you must activate **Neo Trade API** and **TOTP** for your Kotak Neo account.
+
+STEP 1 – Enable Neo Trade API
+
+Open:
+
+https://neo.kotaksecurities.com
+
+Login to Kotak Neo.
+
+Then go to:
+
+More → Trade API
+
+If Trade API is not activated, enable it from this page.
+
+Once enabled you will see the **Neo Trade API Dashboard**.
+
+--------------------------------------------------
+
+STEP 2 – Register TOTP for Trade API
+
+Open:
+
+https://www.kotakneo.com/platform/kotak-neo-trade-api/totp-registration/
+
+Steps:
+
+1. Enter your registered mobile number
+2. Verify OTP sent to your phone
+3. Select your Client ID(Can be found in profile)
+4. Choose **Register TOTP**
+5. Scan the QR code using an authenticator app
+6. Enter the 6-digit code generated in the authenticator
+
+Recommended authenticator apps:
+
+Google Authenticator  
+Microsoft Authenticator  
+
+
+These apps generate a **6-digit TOTP every 30 seconds**.
+
+You will need this TOTP while logging into Market Pulse Terminal Dashboard.
+
+--------------------------------------------------
+STEP 3 – DOWNLOAD & START TERMINAL
+--------------------------------------------------
+
+1. Download the Market Pulse Terminal package.
+2. Extract the folder completely.
+3. Open the extracted folder.
+
+You will see files such as:
+
+MarketPulseKAT_v1.x.exe  
+start.bat 
+
+4. Double-click:
+
+start.bat
+
+This will start the Market Pulse backend server.
+
+Your browser will **automatically open** and load:
+
+http://localhost:5700
+
+If it does not open automatically, open your browser and go to:
+
+http://localhost:5700
+
+IMPORTANT
+
+Do NOT close the terminal window.  
+It runs the backend required for the terminal.
+
+--------------------------------------------------
+STEP 4 – ACTIVATE LICENSE
+--------------------------------------------------
+
+On the first screen enter:
+
+Client Code (UCC)  
+License Key
+
+Example license format:
+
+KAT-XXXX-XXXX-XXXX
+
+Click:
+
+ACTIVATE
+
+License access will be provided via Telegram:
+
+https://t.me/MarketPulseAdmin
+
+--------------------------------------------------
+STEP 5 – ENTER KOTAK NEO API DETAILS
+--------------------------------------------------
+
+You must now enter your **Kotak Neo Trade API details**.
+
+First get your **Access Token**.
+
+Open Kotak Neo:
+
+https://neo.kotaksecurities.com
+
+Go to:
+
+More → Trade API → Your Applications
+
+You will see:
+
+Default Application
+
+Copy the **TOKEN** shown there.
+
+Example token format:
+
+06ac3fd7-6c89-4df1-80d-xxxxxxxx
+
+Now enter in Market Pulse:
+
+Access Token  
+Mobile Number  
+Client Code (UCC)  
+Mpin
+
+Click:
+
+CONTINUE
+
+--------------------------------------------------
+STEP 6 – ENTER TOTP
+--------------------------------------------------
+
+After you will see the TOTP screen.
+
+Enter your:
+
+6-digit TOTP (from authenticator app)
+
+Then click:
+
+LAUNCH DASHBOARD
+
+The Market Pulse Dashboard will open.
+
+--------------------------------------------------
+FIRST LOGIN VS NEXT LOGIN
+--------------------------------------------------
+
+FIRST LOGIN (One-time setup)
+
+You must enter:
+Page 1
+UCC client Code (Only for reference)
+License Key
+
+Page 2
+Trade api code  
+Client Code  
+Mobile Number
+MPIN
+
+After successful login the system stores the required details **locally on your computer**.
+
+--------------------------------------------------
+
+NEXT LOGINS (Daily login)
+
+From the next login onwards you only need:
+
+TOTP  
+
+
+Access token and other credentials are already saved locally.
+
+--------------------------------------------------
+IMPORTANT SECURITY INFORMATION
+--------------------------------------------------
+
+Market Pulse Terminal runs completely on the **end-user machine**.
+
+• All credentials are stored locally on the user's computer  
+• We do NOT store or access user credentials  
+• We do NOT control user trading accounts  
+• The application does NOT collect or transmit personal trading data  
+
+The only verification performed by Market Pulse Terminal is:
+
+License validation during login.
+
+Apart from license validation, the application has **no control over user accounts or trades**.
+
+--------------------------------------------------
+IMPORTANT NOTES
+--------------------------------------------------
+
+• Do NOT close the terminal window running in the background  
+• It powers the Market Pulse backend  
+• Closing it will stop the terminal
+
+If the **Access Token is reset in Kotak Neo**, copy the new token again.
+
+--------------------------------------------------
+SUPPORT
+--------------------------------------------------
+
+For license access or support contact:
+
+https://t.me/MarketPulseAdmin
